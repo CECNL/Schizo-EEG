@@ -45,7 +45,7 @@ class Test:
         self.hc_full_epoch_data = get_dataset(self.dataset, 'Control', hc_subject_num, self.dataset_path, self.window_length, self.window_overlap)
         self.sch_full_epoch_data = get_dataset(self.dataset, 'Schizophrenia', sch_subject_num, self.dataset_path, self.window_length, self.window_overlap)
 
-    def evalate_and_get_gradient(self, model, data_loader, dev, model_name, class_id):
+    def evaluate_and_get_gradient(self, model, data_loader, dev, model_name, class_id):
         predict_label = []
         label_list = []
         gradient_list = []
@@ -130,7 +130,7 @@ class Test:
         class_name = data_path.split('/')[-1][0]     # health control: h; schizophrenia: s
         class_id = 0 if class_name == "h" else 1     # health control: 0; schizophrenia: 1
         
-        predict_label, gradient = self.evalate_and_get_gradient(best_model, test_loader, dev, model_name, class_id)
+        predict_label, gradient = self.evaluate_and_get_gradient(best_model, test_loader, dev, model_name, class_id)
 
         correct_count = predict_label.count(class_id)
 
