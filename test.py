@@ -148,7 +148,7 @@ class Test:
         self.get_best_param()
 
         result_txt = open(file, mode="a")
-        result_txt.write("model, seed, batch size, learning rate, Accuracy (Seg.), Accuracy (Sub.), Sensitivity, Specificity, Precision, F1_score \n")
+        result_txt.write("model, batch size, learning rate, Accuracy (Seg.), Accuracy (Sub.), Sensitivity, Specificity, Precision, F1_score \n")
         result_txt.close()
 
         set_seed(self.seed)
