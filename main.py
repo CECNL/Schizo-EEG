@@ -40,7 +40,7 @@ if __name__ == '__main__':
     if args.dataset == 1:
         hc_subject_num = 14
         sch_subject_num = 14
-        xai_used_channel = ['Fp1', 'Fp2', 'F7', 'F3', 'Fz', 'F4', 'F8', 'T3', 'C3', 'Cz', 'C4', 'T4', 'T5', 'P3', 'Pz', 'P4', 'T6', 'O1', 'O2']     # electrodes employed in interpolation calculations
+        xai_used_channel = ['Fp2','F8','T4','T6','O2','Fp1','F7','T3','T5','O1','F4','C4','P4','F3','C3','P3','Fz','Cz','Pz']
         show_channel = xai_used_channel # electrodes that you want to show on the saliency topomap
     else:
         hc_subject_num = 40
@@ -54,7 +54,7 @@ if __name__ == '__main__':
         'training_lr': [0.005, 0.001, 0.0005, 0.0001]  #learning rate
     }
 
-    model_list = ['Oh_CNN', 'SzHNN', 'EEGNet', 'SCCNet', 'ShallowConvNet', 'MBSzEEGNet'] if args.model == 'All' else [args.model]    
+    model_list = ['Oh_CNN', 'SzHNN', 'EEGNet', 'SCCNet', 'ShallowConvNet', 'MBSzEEGNet', 'Conformer'] if args.model == 'All' else [args.model]    
 
     for model_name in model_list:
         #### Pilot tain
