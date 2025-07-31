@@ -1,5 +1,26 @@
-# Schizo-EEG
-Repetition code of the model for the paper "Enhancing EEG-Based Schizophrenia Diagnosis with Explainable Multi-Branch Deep Learning" in PyTorch
+# Schizo-EEG 
+This repository provides the repetition code for the paper:
+**"Enhancing EEG-Based Schizophrenia Diagnosis with Explainable Multi-Branch Deep Learning"**
+by Yu-Hsin Chang, Yih-Ning Huang, Jing-Lun Chou, Huang-Chi Lin, and Chun-Shu Wei, published in the *IEEE Journal of Biomedical and Health Informatics*, 2025.
+📄 [IEEE Paper Link](https://ieeexplore.ieee.org/document/11098900)
+📎 The supplementary material can be found in the file:
+**`Chang_et_al_Supplementary Material_Enhancing EEG-Based Schizophrenia Diagnosis with Explainable Multi-Branch Deep Learning.pdf`**
+
+If you use this code or dataset in your work, please cite our paper:
+
+```bibtex
+@ARTICLE{11098900,
+  author={Chang, Yu-Hsin and Huang, Yih-Ning and Chou, Jing-Lun and Lin, Huang-Chi and Wei, Chun-Shu},
+  journal={IEEE Journal of Biomedical and Health Informatics}, 
+  title={Enhancing EEG-Based Schizophrenia Diagnosis with Explainable Multi-Branch Deep Learning}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-12},
+  keywords={Electroencephalography;Schizophrenia;Brain modeling;Biological system modeling;Recording;Medical diagnostic imaging;Adaptation models;Accuracy;Training;Feature extraction;electroencephalography (EEG);deep learning (DL);explainable artificial intelligence (XAI);schizophrenia},
+  doi={10.1109/JBHI.2025.3593647}
+}
+```
 
 ## Environment Setup
 ### Step 1: Create Python Environment
