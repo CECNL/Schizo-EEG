@@ -3,8 +3,7 @@ This repository provides the repetition code for the paper:
 **"Enhancing EEG-Based Schizophrenia Diagnosis with Explainable Multi-Branch Deep Learning"**
 by Yu-Hsin Chang, Yih-Ning Huang, Jing-Lun Chou, Huang-Chi Lin, and Chun-Shu Wei, published in the *IEEE Journal of Biomedical and Health Informatics*, 2025.
 📄 [IEEE Paper Link](https://ieeexplore.ieee.org/document/11098900)
-📎 The supplementary material can be found in the file:
-**`Chang_et_al_Supplementary Material_Enhancing EEG-Based Schizophrenia Diagnosis with Explainable Multi-Branch Deep Learning.pdf`**
+📎 The supplementary material can be found in the file: [Supplementary Material](./Chang_et_al_Supplementary_Material.pdf)
 
 If you use this code or dataset in your work, please cite our paper:
 
